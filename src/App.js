@@ -1,5 +1,5 @@
 import './App.css';
-import logo from './logo.jpg'
+import logo from './logo.png'
 import { BsInstagram,BsLinkedin,BsTwitter,BsDiscord,BsGithub } from 'react-icons/bs';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <div className="box">
         
         <div className="lt">
-          <img src={logo} alt="logo" />
+          <div className='lpimg'><img src={logo} alt="logo" /></div>
           <h1>LOGIC PLAY</h1>
         </div>
 
